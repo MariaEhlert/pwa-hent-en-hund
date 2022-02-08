@@ -1,4 +1,7 @@
 header{
+    background-color: rgba(233, 150, 122, 0.308);
+    padding-top: 5%;
+    padding-bottom: 5%;
     h1{
         text-align: center;
         font-size: 7vw;
@@ -7,6 +10,7 @@ header{
 .indexContainer{
     img{
         width: 100%;
+        padding-top: 1%;
     }
 }
 .infoContainer{
