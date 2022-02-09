@@ -12,9 +12,14 @@ header{
     }
 }
 .indexContainer{
+    padding-bottom: 1%;
     img{
         width: 100%;
         padding-top: 1%;
+    }
+    button{
+        margin: auto;
+        display: block;
     }
 }
 .infoContainer{

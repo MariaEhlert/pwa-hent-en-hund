@@ -23,9 +23,10 @@ fetch('https://dog.ceo/api/breeds/image/random/1')
 .catch(err => console.error(err))
 
 const getData = (dogImg) => {
-        const wrapper = document.querySelector('.indexContainer');
+        const wrapper = document.querySelector('.dogImage');
         const img = document.createElement('img');
         img.setAttribute('src', dogImg);
         wrapper.append(img);
 
-    }
+}
+
